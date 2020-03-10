@@ -1,2 +1,10 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import './RowComponentStyle.css';
+
+function RowComponent(){
+    return (
+    <p>this works</p>
+    );
+}
+
+export default RowComponent;
